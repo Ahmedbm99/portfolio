@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Ben Makhlouf | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <div class="nav-buttons">
+        <button onclick="window.open('https://github.com/Ahmedbm99','_blank')">GitHub</button>
+        <button onclick="window.open('https://linkedin.com/in/ahmed-ben-makhlouf','_blank')">LinkedIn</button>
+        <button onclick="document.getElementById('contact').scrollIntoView()">Contact Me</button>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <img src="avatar.png" alt="Ahmed's Avatar" class="avatar">
+      <h2>Hi, I’m <span class="highlight">Ahmed Ben Makhlouf</span></h2>
+      <h3>DevOps & Software Engineer</h3>
+      <p>
+        Relentless, self-taught developer, passionate about crafting software solutions 
+        and constantly expanding my knowledge and skills.
+      </p>
+      <div class="hero-buttons">
+        <button>Hire Me!</button>
+        <button onclick="window.open('CV_AhmedBenMakhlouf_PFE.pdf','_blank')">Download CV</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p>
+      I am a final-year Telecommunications Engineering student at the National School of Electronics and 
+      Telecommunications of Sfax, passionate about web development, cloud computing, and DevOps automation. 
+      I enjoy building scalable applications, orchestrating workflows, and deploying microservices with 
+      modern tools such as Kubernetes, Docker, Apache Airflow, React, and .NET.
+      <br><br>
+      Through both academic projects and internships, I have gained hands-on experience in full-stack 
+      development, workflow management, and cloud solutions. I am always eager to explore emerging technologies 
+      and turn innovative ideas into practical solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+
+    <div class="skills-category">
+      <h4>Languages</h4>
+      <span>Python</span><span>JavaScript</span><span>PHP</span><span>C</span>
+      <span>C#</span><span>HTML/CSS</span><span>Java</span><span>JavaEE</span>
+      <span>Bash</span>
+    </div>
+
+    <div class="skills-category">
+      <h4>Frameworks</h4>
+      <span>Node.js</span><span>Express</span><span>React</span><span>Vue.js</span>
+      <span>.NET</span><span>Laravel</span><span>Symfony</span>
+      <span>Bootstrap</span><span>Tailwind CSS</span>
+    </div>
+
+    <div class="skills-category">
+      <h4>Databases</h4>
+      <span>MySQL</span><span>PostgreSQL</span>
+    </div>
+
+    <div class="skills-category">
+      <h4>Tools & DevOps</h4>
+      <span>Docker </span><span>Kubernetes </span><span>Apache Airflow </span>
+      <span>Azure </span><span>CI/CD</span><span>Git</span><span>Linux </span>
+      <span>Graphql </span><span>Terraform </span><span>RESTful API </span>
+    </div>
+  </section>
+
+
+<section id="projects">
+  <h3>Projects</h3>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="project1.png" alt="Project 1">
+      <div class="project-content">
+        <h4>Workflow Management App</h4>
+        <p>Built a web app integrating Power Automate workflows with .NET backend and React frontend for real-time monitoring.</p>
+        <a href="https://github.com/Ahmedbm99" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="project2.png" alt="Project 2">
+      <div class="project-content">
+        <h4>ETL Pipeline with Airflow & Kubernetes</h4>
+        <p>Automated meteorological data processing using Apache Airflow, Docker, and Kubernetes.</p>
+        <a href="https://github.com/Ahmedbm99" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="project3.png" alt="Project 3">
+      <div class="project-content">
+        <h4>Online Ordering App</h4>
+        <p>Developed a multi-role Node.js & Vue.js application with product rating and order tracking.</p>
+        <a href="https://github.com/Ahmedbm99" target="_blank">View Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h3>Contact Me</h3>
+    <p>Email: <a href="mailto:benmakhloufahmed1@gmail.com">benmakhloufahmed1@gmail.com</a></p>
+    <p>Phone: <a href="tel:+21655491729">+216 55 491 729</a></p>
+  </section>
+
+</body>
+</html>
