@@ -219,9 +219,9 @@ section h3::after {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  gap: 3rem;
   margin-top: 2rem;
+  padding: 0 1rem;
 }
 
 .project-card {
@@ -281,5 +281,54 @@ section h3::after {
   background: #009ac7;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin-top: 20px;
+}
 
+.contact-form label {
+  position: center;
+  margin: 8px 0 4px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  position: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077ff;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #0077ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  position: relative;
+}
+
+.contact-form button:hover {
+  background: #0056cc;
+}
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
